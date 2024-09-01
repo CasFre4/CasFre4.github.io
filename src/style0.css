@@ -1,0 +1,61 @@
+body {
+/* background-image: url("eye.png"); */
+background-color: black;
+background-size: auto;
+background-repeat: no-repeat;
+background-position: top;
+}
+p {
+font-size: 18px;
+}
+#title {
+font-size: 50px;
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: black;
+}
+.heading {
+color: white;
+font-size: 26px;
+font-style: oblique;
+text-decoration: underline;
+}
+.heading2 {
+    color: white;
+    font-size: 20px;
+    font-style: oblique;
+    text-decoration: underline;
+    }
+ul {
+background-color: red;
+overflow: hidden;
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+li a{
+font-size: 20px;
+display: inline-block;
+color: black;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+margin: 0;
+}
+li {
+margin: 0;
+float: left;
+}
+li a:hover
+{background-color: #BB0101;} 
+.blue {
+position: fixed;
+top: 0;
+width: 120%;
+}
+.red {
+margin: 0;
+float: left;
+}
+.green {
+color: white;
+}

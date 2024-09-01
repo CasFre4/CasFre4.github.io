@@ -1,0 +1,28 @@
+{
+   "homepage": "https://casfre4.github.io/starvstats",
+  "name": "three-globe",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "d3": "7.6.1",
+    "globe.gl": "^2.32.4",
+    "parcel-bundler": "^1.12.5",
+    "postprocessing": "6.34.2",
+    "three-globe": "^2.30.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.24.5",
+    "gh-pages": "^6.1.1",
+    "parcel": "^2.12.0"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "keywords": []
+}
